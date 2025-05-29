@@ -1,0 +1,32 @@
+CREATE DATABASE canteen_db;
+use canteen_db;
+CREATE TABLE `kantin` (
+  `id` INT AUTO_INCREMENT PRIMARY KEY,
+  `nama_kantin` VARCHAR(255) NOT NULL,
+  `deskripsi` TEXT,
+  `foto_kantin` VARCHAR(255)
+);
+
+-- Tabel Menu Makanan/Minuman
+CREATE TABLE `menu` (
+  `id` INT AUTO_INCREMENT PRIMARY KEY,
+  `id_kantin` INT,
+  `nama_menu` VARCHAR(255) NOT NULL,
+  `deskripsi` TEXT,
+  `harga` DECIMAL(10, 2) NOT NULL,
+  `foto_menu` VARCHAR(255),
+  `stok` INT NOT NULL DEFAULT 0,
+  FOREIGN KEY (`id_kantin`) REFERENCES `kantin`(`id`)
+);
+
+INSERT INTO `kantin` (`nama_kantin`, `deskripsi`, `foto_kantin`) VALUES
+('Kantin Ibu Rika', 'Menyediakan masakan rumahan lezat dan higienis.', 'kantin1.jpg'),
+('Kantin Batagor Mas Riki', 'Spesialis batagor dan siomay Bandung asli.', 'kantin2.jpg');
+
+INSERT INTO `menu` (`id_kantin`, `nama_menu`, `deskripsi`, `harga`, `foto_menu`, `stok`) VALUES
+(1, 'Nasi Goreng Spesial', 'Nasi goreng dengan telur, ayam, dan sosis.', 18000, 'nasigoreng.jpg', 50),
+(1, 'Ayam Geprek', 'Ayam goreng renyah dengan sambal bawang pedas.', 20000, 'ayamgeprek.jpg', 40),
+(1, 'Es Teh Manis', 'Teh segar dengan es dan gula.', 5000, 'esteh.jpg', 100),
+(1, 'Jus Jeruk', 'Jus jeruk murni tanpa pengawet.', 10000, 'jusjeruk.jpg', 60),
+(2, 'Batagor Kuah', 'Batagor dengan kuah kaldu ikan.', 15000, 'batagorkuah.jpg', 30),
+(2, 'Siomay Bandung', 'Siomay ikan dengan bumbu kacang.', 15000, 'siomay.jpg', 35);

@@ -1,0 +1,60 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.1.1">
+  <diagram name="Halaman-1" id="ms07tJOuz37YOlJ1kRyu">
+    <mxGraphModel dx="4168" dy="2248" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="x5mpkiBCQWHE9wTUU6J7-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="x5mpkiBCQWHE9wTUU6J7-1" target="x5mpkiBCQWHE9wTUU6J7-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x5mpkiBCQWHE9wTUU6J7-1" value="MULAI" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="70" width="120" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="x5mpkiBCQWHE9wTUU6J7-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="x5mpkiBCQWHE9wTUU6J7-7" target="x5mpkiBCQWHE9wTUU6J7-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x5mpkiBCQWHE9wTUU6J7-7" value="Pilih makanan dan klik &quot;Pesan&quot;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="250" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x5mpkiBCQWHE9wTUU6J7-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="x5mpkiBCQWHE9wTUU6J7-9" target="x5mpkiBCQWHE9wTUU6J7-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x5mpkiBCQWHE9wTUU6J7-9" value="form input jumlah makanan + submit" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="350" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x5mpkiBCQWHE9wTUU6J7-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="x5mpkiBCQWHE9wTUU6J7-11" target="x5mpkiBCQWHE9wTUU6J7-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x5mpkiBCQWHE9wTUU6J7-11" value="proses&lt;div&gt;-ambil data&amp;nbsp; dari form&lt;/div&gt;&lt;div&gt;kurangi stock di database&lt;/div&gt;&lt;div&gt;-hitung total harga&lt;/div&gt;&lt;div&gt;-tampilkan hasil ke user&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="250" y="460" width="160" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="x5mpkiBCQWHE9wTUU6J7-13" value="SELESAI" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="570" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="x5mpkiBCQWHE9wTUU6J7-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="x5mpkiBCQWHE9wTUU6J7-15" target="x5mpkiBCQWHE9wTUU6J7-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="331" y="345" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x5mpkiBCQWHE9wTUU6J7-15" value="&lt;br style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;Menampilkan Menu&lt;/span&gt;&lt;div style=&quot;text-align: left;&quot;&gt;-About kantin&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;-Cafetaria list&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;-how to buy&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Contact me&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br style=&quot;color: rgb(0, 0, 0); background-color: rgb(236, 236, 236);&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="130" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="x5mpkiBCQWHE9wTUU6J7-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="x5mpkiBCQWHE9wTUU6J7-20" target="x5mpkiBCQWHE9wTUU6J7-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x5mpkiBCQWHE9wTUU6J7-20" value="User klik &quot;contact me&quot;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="250" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x5mpkiBCQWHE9wTUU6J7-24" value="Form kontak di tampilkan" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="350" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x5mpkiBCQWHE9wTUU6J7-26" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="x5mpkiBCQWHE9wTUU6J7-24" target="x5mpkiBCQWHE9wTUU6J7-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="380" as="sourcePoint" />
+            <mxPoint x="500" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
